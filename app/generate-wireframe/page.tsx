@@ -32,7 +32,7 @@ const wireframeSuggestions: WireframeSuggestion[] = [
   },
 ];
 
-export default function Generate(): JSX.Element {
+export default function Generate() {
   const [imageUrl, setImageUrl] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(false);
   const [outputFormat, setOutputFormat] = useState<"jsx" | "html">("jsx");
